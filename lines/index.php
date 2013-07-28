@@ -40,7 +40,7 @@ $angle_offset = (360 / $num);
 //echo $angle_offset;
 $count = 0;
 // hack until i setup the below while to output to array and take last $x and $y as margins (?)
-// very ugly but works
+// ugly but works
 echo "<div style=\"\">";
 while ($count <= $num) {
 $y = round($r * cos(deg2rad($angle_offset * $count - 90)) + $r*3, 3);
