@@ -46,7 +46,7 @@ while ($count <= $num) {
 $y = round($r * cos(deg2rad($angle_offset * $count - 90)) + $r*3, 3);
 $x = round($r * sin(deg2rad($angle_offset * $count - 90)) + $r*3, 3);
 //move -90 to ($count-1)) -90 for box mode
-$y_0 = round($r * cos(deg2rad($angle_offset * ($count-1)) - 90), 3);
+//$y_0 = round($r * cos(deg2rad($angle_offset * ($count-1)) - 90), 3);
 $y_0 = round($r * cos(deg2rad($angle_offset * ($count-1) -90)), 3);
 $x_0 = round($r * sin(deg2rad($angle_offset * ($count-1) -90)), 3);
 
